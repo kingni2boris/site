@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("images/matthias-iordache-MVd4rDf4O2Q-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input{
+    border-radius: 5px;
+}   
+button{
+    margin-left: 65px;
+    width: 125px;
+    background-color: red;
+    color:white;
+    border:1px solid red;
+    border-radius: 5px;
+    height: 50px;
+    outline: none;
+}
+
+fieldset {
+    width: 50%;
+    border: 5px solid transparent !important;
+    padding: auto;
+    background-color: rgba(0, 0.5, 0.9, 0.301);
+    border-radius: 30px;
+    margin: auto;
+}
+
+input {
+    border: 1px solid white;
+    outline: none;
+    width: 230px;
+    height: 30px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px
+}
+/* .formulaire {
+   height: 600px;
+   width: 500px;
+   background-color: #336699;
+} */
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p1,
+#p2,
+#p3,
+#p4,
+#p5 {
+    visibility: hidden;
+}
+
+p {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input :valid {
+    border: 1px solid #336699;
+}
+
+input :invalid {
+    border: 1px solid red;
+}
